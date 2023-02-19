@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main asaide"
+        "footer footer";
+    /*grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;*/
+}
+
+h2 {
+    text-decoration: underline wavy;
+}
+
+h3 {
+    text-decoration: underline dashed;
+}
+
+header {
+    color: black;   
+    text-align: center;
+    grid-area: header;
+}
+
+.init {
+    background-color: darkgreen;
+    margin: 0 auto;
+    /*position: fixed;*/
+}
+
+#myPhoto1 {
+    height: 300px; 
+    width: 300px; 
+    border-radius: 10%; 
+    margin: 16px auto;
+    box-shadow: 4px 4px 4px rgb(180 128 128); 
+}
+
+nav {
+    grid-area: nav;
+}
+
+#navegation {
+    text-align: left; 
+    margin-left: 32px;
+}
+
+main {
+    margin: 16px;
+    grid-area: main;
+}
+
+asaide {
+    grid-area: asaide;
+    margin: 16px;
+}
+
+.videos {
+    display: inline-block;
+}
+
+#myPhoto2 {
+    border-radius: 50%;
+}
+
+#desenvolvedor {
+    border: 2px solid purple;
+}
+
+#calculadora {
+    background-color: purple;
+    border-radius: 10%;
+    border: 2px solid purple;
+    text-transform: uppercase;
+    transition: background-color 1s border 1s;
+}
+
+#calculadora:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+footer {
+    margin: 8px;
+    border: 2px solid blue;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.referencias {
+    /*border: 2px solid purple;*/
+    /*flex-direction: column;*/
+}
+
+#interacao1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.btn {
+    font-style: italic;
+}
+
+#btn-primary {
+    border-radius: 10%;
+    background-color: indigo;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    transition: background-color 1s;
+}
+
+#btn-primary:hover {
+    background-color: purple;
+}
+
+#btn-secondary {
+    border-radius: 10%;
+    background-color: gray;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    transition: background-color 1s;
+}
+
+#btn-secondary:hover {
+    background-color: green;
+}
+
+.section-media {
+    /*border: 2px solid purple;*/
+}
+
+.social-list {
+    /*border: 2px solid purple;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
